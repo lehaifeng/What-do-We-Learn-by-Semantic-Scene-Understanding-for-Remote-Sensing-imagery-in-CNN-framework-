@@ -29,15 +29,15 @@ Model
 Result
 ====
 ## 1) Multi-depth of CNNs in Scene Understanding
- ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B72.PNG)</div>
+ <div align=center><img src="https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B72.PNG"/></div>
  
 ----
 ## 2) Multi-Scale of CNNs in Scene Understanding
- ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B73.PNG)</div>
+ <div align=center><img src="https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B73.PNG"/></div>
  
 ----
 ## 3)CAMs of joint distribution of objects in Scene Understanding
- ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B74.PNG)</div>
+ <div align=center><img src="https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B74.PNG"/></div>
  
 ----
  
