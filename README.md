@@ -11,7 +11,7 @@ Introduction
  ----
 Data
  based [AID],we select 22 categories scene as our dataset,considering its diacritical scene complexity.
-                        ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B71.PNG)</div>
+                       <div align=center><img src="https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B71.PNG"/></div>
  
 ----
 Experiment settings
@@ -36,7 +36,7 @@ Result
  ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B73.PNG)</div>
  
 ----
-##3)CAMs of joint distribution of objects in Scene Understanding
+## 3)CAMs of joint distribution of objects in Scene Understanding
  ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B74.PNG)</div>
  
 ----
