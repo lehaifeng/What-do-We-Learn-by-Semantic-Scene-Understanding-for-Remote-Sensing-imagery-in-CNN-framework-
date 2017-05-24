@@ -8,6 +8,13 @@ Introduction
 	We analyzing how the depth of network and the scale of receptive field influence the performance of remote sensing scene understanding tasks, and reveal that using the same fixed depth and scale CNN network for all the types of scene understanding resulting in limited performance. Based on these findings, we suggest that addressing this scale bias from different complexity scene is critical to improve remote sensing scene understanding performance。This finding also inspires us designing a scale-specific network architectures may be a better way for remote sensing image understanding.
  We demonstrate the importance of joint multi-objective semantic support for fine-grained remote sensing scene understanding by analyzing the response of class activation maps in CNNs. This finds shows that Scene and object recognition are two closed related visual tasks, and solve these tasks in an integrated fashion may be a better way for remote sensing image understanding.
  
+ ----
+Data
+ based [AID],we select 22 categories scene as our dataset,considering its diacritical scene complexity.
+  ![](http://pan.baidu.com/s/1i5HsOML)
+ 
+====
+
 ----
 Experiment settings
 ====
@@ -18,5 +25,10 @@ Experiment settings
 Model
 ====
  we perform experiments in three ways:[multi-depth CNNs],contains series of alexnets and vgg-nets;[multi-scle CNNs],contains googlenet with different of receiptive fields;[feature visualization of CAMs],a extended version of googlenet.
- all of models are trainde with lr=0.001,lr_policy is SGD,and momentum=0.9.
+ all of models are trainde with lr=0.001,lr_policy is SGD,and momentum=0.9,weight_decay=0.0002,gamma=0.96,stepsize=100000.
+
+----
+Result
+====
+ 
  
