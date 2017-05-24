@@ -4,14 +4,14 @@
 
 Introduction
 ===
- we focus on the task of remote sensing scene recognition, revealing the differences between sensing scene and natural scene recognitions based on DCNN, standing on it to explore the pattern as DCNN identifies the remote sensing scene. The main contributions of our work are as follows:
-	We analyzing how the depth of network and the scale of receptive field influence the performance of remote sensing scene understanding tasks, and reveal that using the same fixed depth and scale CNN network for all the types of scene understanding resulting in limited performance. Based on these findings, we suggest that addressing this scale bias from different complexity scene is critical to improve remote sensing scene understanding performance。This finding also inspires us designing a scale-specific network architectures may be a better way for remote sensing image understanding.
- We demonstrate the importance of joint multi-objective semantic support for fine-grained remote sensing scene understanding by analyzing the response of class activation maps in CNNs. This finds shows that Scene and object recognition are two closed related visual tasks, and solve these tasks in an integrated fashion may be a better way for remote sensing image understanding.
+ we focus on the task of `remote sensing scene recognition`, revealing the differences between sensing scene and natural scene recognitions based on DCNN, standing on it to explore the pattern as DCNN identifies the remote sensing scene. The main contributions of our work are as follows:
+ 1)`We analyzing how the depth of network and the scale of receptive field influence the performance of remote sensing scene understanding tasks`, and `reveal that using the same fixed depth and scale CNN network for all the types of scene understanding resulting in limited performance`. Based on these findings, we `suggest that addressing this scale bias from different complexity scene is critical to improve remote sensing scene understanding performance`.This finding also inspires us designing a scale-specific network architectures may be a better way for remote sensing image understanding.
+ 2)`We demonstrate the importance of joint multi-objective semantic support for fine-grained remote sensing scene understanding by analyzing the response of class activation maps in CNNs. This finds shows that Scene and object recognition are two closed related visual tasks, and solve these tasks in an integrated fashion may be a better way for remote sensing image understanding`.
  
  ----
 Data
  based [AID],we select 22 categories scene as our dataset,considering its diacritical scene complexity.
-                        ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B71.PNG)
+                        ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B71.PNG)</div>
  
 ----
 Experiment settings
@@ -28,13 +28,16 @@ Model
 ----
 Result
 ====
-##1) Multi-depth of CNNs in Scene Understanding
- ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B72.PNG)
+## 1) Multi-depth of CNNs in Scene Understanding
+ ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B72.PNG)</div>
+ 
 ----
-##2) Multi-Scale of CNNs in Scene Understanding
- ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B73.PNG)
+## 2) Multi-Scale of CNNs in Scene Understanding
+ ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B73.PNG)</div>
+ 
 ----
 ##3)CAMs of joint distribution of objects in Scene Understanding
- ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B74.PNG)
+ ![](https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B74.PNG)</div>
+ 
 ----
  
