@@ -11,10 +11,8 @@ Introduction
  ----
 Data
  based [AID],we select 22 categories scene as our dataset,considering its diacritical scene complexity.
-  ![](http://pan.baidu.com/s/1i5HsOML)
+  ![](http://pan.baidu.com/s/1sloCopf)
  
-====
-
 ----
 Experiment settings
 ====
