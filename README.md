@@ -11,19 +11,19 @@ We focus on the task of `remote sensing scene recognition`, revealing the differ
  ----
 Data
 ====
- basing [AID](www.lmars.whu.edu.cn/xia/AID-project.html),we select 22 categories scene as our dataset,considering its diacritical scene complexity.
+Basing [AID](www.lmars.whu.edu.cn/xia/AID-project.html), we select 22 categories scene as our dataset,considering its diacritical scene complexity.
                        <div align=center><img src="https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B71.PNG"/></div>
  
 ----
 Experiment settings
 ====
- you need to install `caffe`,`cuda`and assure you have `matlab for caffe`.
+ You need to install `caffe`,`cuda`and assure you have `matlab for caffe`.
  if you do not install the platform,visit [http://caffe.berkeleyvision.org/installation.htmle]                        (http://caffe.berkeleyvision.org/installation.html)
  
 ----
 Model
 ====
- we perform experiments in three ways:`[multi-depth CNNs]`,contains series of alexnets and vgg-nets;`[multi-scle CNNs]`,contains googlenet with different of receiptive fields;`[feature visualization of CAMs]`,a extended version of googlenet.
+ We perform experiments in three ways:`[multi-depth CNNs]`,contains series of alexnets and vgg-nets;`[multi-scle CNNs]`,contains googlenet with different of receiptive fields;`[feature visualization of CAMs]`,a extended version of googlenet.
  all of models are trainde with `lr=0.001`,`lr_policy is SGD`,and `momentum=0.9`,`weight_decay=0.0002`,`gamma=0.96`,`stepsize=100000`.
 
 ----
@@ -37,7 +37,7 @@ Result
  <div align=center><img src="https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B73.PNG"/></div>
  
 ----
-## 3)CAMs of joint distribution of objects in Scene Understanding
+## 3) CAMs of joint distribution of objects in Scene Understanding
  <div align=center><img src="https://github.com/wzx918/images/blob/master/%E6%8D%95%E8%8E%B74.PNG"/></div>
  
 ----
